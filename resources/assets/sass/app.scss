@@ -1,0 +1,53 @@
+
+// Fonts
+@import url(https://fonts.googleapis.com/css?family=Raleway:300,400,600);
+
+// Variables
+@import "variables";
+
+// Bootstrap
+@import "node_modules/bootstrap-sass/assets/stylesheets/bootstrap";
+
+/*bootstrap modal setting resize*/
+.modal-full.modal-dialog {
+  width: 96%;
+  height: 96%;
+}
+
+.modal-full.modal-dialog > .modal-content {
+  height: auto;
+  min-height: 100%;
+  border-radius: 0;
+}
+
+/*table head row color setting*/
+tr.inverse {
+  color: white;
+}
+tr.inverse > th > a:hover, tr.inverse > th > a {
+  color: white;
+}
+
+/*table head row height*/
+tr.head {
+  height: 35px;
+  text-align: center;
+  vertical-align: middle;
+}
+
+/*icon resize*/
+a i.fa {
+  font-size: 14px;
+  text-align: center;
+  vertical-align: middle;
+}
+
+/*bootstrap button color*/
+.btn-default {
+  background-color: #f7f7f7;
+}
+
+input, .form-control {
+  background-color: #FAFAFA;
+}
+
